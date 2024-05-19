@@ -1,0 +1,51 @@
+.mailList{
+    width: 100%;
+    background-color: #3f3fc2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    box-shadow: inset 0 0 14px 4px black;
+    margin-top: 100px;
+}
+.mailprimaryHeader{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.mailsecondaryHeader{
+    color: rgba(255, 255, 255, 0.848);
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.mailWrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 10px;
+}
+.mailWrapper>input{
+    width: 25%;
+    height: 40px;
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+.mailWrapper>input:focus{
+    outline: none;
+}
+.mailWrapper>button{
+    width: 25%;
+    background-color: #1111a7;
+    height: 45px;
+    font-size: 1.2rem;
+    border: none;
+    color: white;
+}
+.mailWrapper>button:hover{
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.649);
+}

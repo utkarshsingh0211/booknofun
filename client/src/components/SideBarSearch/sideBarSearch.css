@@ -1,0 +1,98 @@
+.sideBarSearch{
+    margin: 20px;
+    display: flex;
+    background-color: #febb20;
+    width: 20%;
+    height: 500px;
+    box-shadow: 0 0 6px 2px gray;
+    position: sticky;
+    top: 10px;
+}
+.sideBarContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 30px auto;
+}
+.sideBarContainer>h2{
+    color: rgb(95, 93, 93);
+
+}
+.sideSearchItem{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    margin: 10px auto;
+}
+.sideIcon{
+    font-size: 1.2rem;
+    color: rgb(95, 93, 93);
+}
+.sideSearchText{
+    /* font-size: 1.2rem; */
+    font-weight: bold;
+    color: rgb(95, 93, 93);
+}
+.sideSearchInput{
+    width: 80%;
+    border: none;
+    font-size: 1rem;
+    padding-left: 10px;
+    font-weight: bold;
+    color: rgba(36, 36, 36, 0.785);
+}
+.sideSearchInput:focus{
+    outline: none;
+    border: none;
+}
+.sideSearchRoomStatus{
+    display: flex;
+    flex-direction: column;
+    width: 100%;   
+    background-color: white; 
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.463);       
+}
+.infoStrips{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
+.btnWrappers{
+    outline: 1px solid black;
+    border-radius: 10px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.counterBtn{
+    padding: 10px 10px;
+    border :none;    
+    background-color: transparent;
+    border-radius: 10px;
+
+}
+.counterBtn:disabled{
+    cursor: not-allowed;
+}
+
+.sideSearchBtn{
+    background-color: #0071c2;
+    margin-top: 30px;
+    color: white;
+    font-size: 1rem;
+    padding: 15px 40px;
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+}
+.sideSearchBtn:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.463);   
+}
+

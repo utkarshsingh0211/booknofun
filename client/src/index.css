@@ -1,0 +1,25 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+body{
+    overflow-y: scroll;
+}
+.txt-dec-none{
+    text-decoration: none;
+} 
+.col-white{
+    color: white;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.pos-abs{
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+.pos-rel{
+    position: relative;
+}

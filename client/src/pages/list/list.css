@@ -1,0 +1,9 @@
+.searchContainer
+{
+    display: flex;
+}
+.listResults
+{
+    width: 70%;
+    height: fit-content;
+}

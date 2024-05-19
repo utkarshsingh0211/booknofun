@@ -1,0 +1,46 @@
+.navbar{
+   
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    background-color: rgb(63, 63, 194);
+    
+    width: 100%;
+    
+}
+.nav-container{
+    width: 80%;
+    max-width: 1024px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.logo{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-items{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: space-evenly;
+}
+
+.nav-btn{
+    margin-left: 15px;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: transparent;
+    outline: white 1px solid ;
+    border: none;
+    color: white;
+}
+.userName{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
